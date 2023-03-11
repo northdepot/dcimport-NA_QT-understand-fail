@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-nszh
     spec:
       containers:
-      - image: quay.io/jduimovich0/user-workload:NA_QT-dc-metro-map-nszh
+      - image: quay.io/jduimovich0/user-workload@sha256:655b127d14db89ad1bae054a00e0fbbc1eb93a1dac987cedf0bb93ab255a7327
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
